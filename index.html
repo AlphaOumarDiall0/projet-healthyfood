@@ -12,10 +12,12 @@
 </head>
 <body>
     <header class="header">
-        <img src="img/healthyfood-logo.png" alt="healthyfood-logo" class="logo">
+        <a href="#accueil">
+            <img src="img/healthyfood-logo.png" alt="healthyfood-logo" class="healthyfood-logo">
+        </a>
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Accueil</a></li>
+                <li><a class="main-nav-link" href="#accueil">Accueil</a></li>
                 <li><a class="main-nav-link" href="#">Comment ça marche</a></li>
                 <li><a class="main-nav-link" href="#">Plats</a></li>
                 <li><a class="main-nav-link" href="#">Temoignages</a></li>
@@ -25,7 +27,7 @@
         </nav>
     </header>
     <main>
-        <section class="section-hero">
+        <section class="section-hero" id="accueil">
             <div class="hero">
                 <div class="hero-image-box">
                     <img src="img/hero.jpg" 
@@ -40,8 +42,9 @@
                     </p>
                     <a href="#" class="btn btn--full margin-right-sm">Découvrez-le</a>
                     <a href="#" class="btn btn--outline">En savoir plus &darr;</a>
-                    <div class="delivered-meals">
-                        <div class="delivered-imgs">
+                    <div class="customers">
+                        <p class="customers-text"><span class="customers-number">+100 000</span> clients satisfaits depuis 2023</p>
+                        <div class="customers-imgs">
                             <img src="img/meals/plat-1.jpg" alt="Meal-photo">
                             <img src="img/meals/plat-2.jpg" alt="Meal-photo">
                             <img src="img/meals/plat-3.jpg" alt="Meal-photo">
@@ -51,7 +54,6 @@
                             <img src="img/meals/plat-7.jpg" alt="Meal-photo">
                             <img src="img/meals/plat-8.jpg" alt="Meal-photo">
                         </div>
-                        <p class="delivered-text"><span class="delivered-number">+150 000</span> plats livrés en 2023</p>
                     </div>
                 </div>
             </div>
