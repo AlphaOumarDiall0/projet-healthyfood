@@ -415,7 +415,7 @@ body{
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
     display: flex;
     justify-content: space-around;
-    /* gap: 9.6rem; */
+    /* gap: 2rem; */
 }
 .meal-img{
     width: 100%;
@@ -425,7 +425,7 @@ body{
     font-size: 2.4rem;
     color: #333;
     font-weight: 600;
-    text-align: center;
+    margin-left: 5rem;
     margin-top: 2rem;
 }
 .meal-tag{
@@ -442,20 +442,7 @@ body{
     border-radius: 100px;
     font-weight: 500;
     align-items: center;
-}
-
-.tag-vegetarien{
-    background-color: #008000;
-}
-.tag-vegan{
-    background-color: #00FF00;
-}
-
-.tag-sans-gluten{
-    background-color: #0000FF;
-}
-.tag-paleo{
-    background-color: #ff6b6b;
+    
 }
 
 .tag-icon-valide{
@@ -481,11 +468,13 @@ body{
     height: 2.4rem;
     width: 2.4rem;
     color: #7a8f7e;
+    margin-right: 1rem;
 }
 
 .icon-regime{
     height: 2.4rem;
     width: 2.4rem;
+    margin-right: 1rem;
 }
 
 
@@ -509,8 +498,24 @@ body{
 }
 
 .all-recipes{
-    text-align: center;
+    text-align: right;
     font-size: 1.8rem;
+}
+
+/* ******************* */
+/* SECTION TESTIMONIALS*/
+/* ******************* */
+.section-testimonials{
+    padding: 9.6rem 0;
+}
+
+.testimonials{
+    display: flex;
+    align-items: center;
+}
+.testimonial-img{
+    width: 9.6rem;
+    /* border-radius: 50%; */
 }
 
 /* ******************* */
