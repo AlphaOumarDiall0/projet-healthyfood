@@ -120,6 +120,28 @@ body{
 .margin-right-sm{
     margin-right: 1.6rem !important;
 }
+
+
+.link:link,
+.link:visited{
+    text-decoration: none;
+    color: #7a8f7e;
+    padding-bottom: 4px;
+    transition: all 300ms;
+}
+
+.link:hover,
+.link:active{
+    color: #556458;
+    border-bottom: 2px solid currentColor;
+}
+
+
+.margin-bottom-md{
+    margin-bottom: 4.8rem !important;
+}
+
+
 .heading-primary{
     font-size: 5.2rem;
     line-height: 1.05;
@@ -369,6 +391,127 @@ body{
     opacity: 0.5;
 }
 
+
+/* ******************* */
+/* SECTION MEALS       */
+/* ******************* */
+
+.section-meals{
+    padding: 9.6rem 0;
+}
+
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.meal:hover{
+    transform: scale(1.1);
+
+}
+
+.meal-content{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 9.6rem; */
+}
+.meal-img{
+    width: 100%;
+}
+
+.meal-title{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+}
+.meal-tag{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.tag{
+    display: flex;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.tag-vegetarien{
+    background-color: #008000;
+}
+.tag-vegan{
+    background-color: #00FF00;
+}
+
+.tag-sans-gluten{
+    background-color: #0000FF;
+}
+.tag-paleo{
+    background-color: #ff6b6b;
+}
+
+.tag-icon-valide{
+    color: #00FF00;
+}
+.tag-icon-close{
+    color: #f03e3e;
+}
+.meal-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.meal-attribute{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.meal-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #7a8f7e;
+}
+
+.icon-regime{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.list-item{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.list-icon{
+    width: 3rem;
+    height: 3rem;
+    color: #e67e22;
+}
+
+.all-recipes{
+    text-align: center;
+    font-size: 1.8rem;
+}
 
 /* ******************* */
 /* MEDIAS QUERIES      */
