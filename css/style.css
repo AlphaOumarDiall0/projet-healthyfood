@@ -314,9 +314,20 @@ body{
 .step-container{
     gap: 9.6rem;
 }
+
+.store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8rem;
+}
+.step-img-1{
+    width: 60%;
+}
 .step-img{
     width: 30%;
 }
+
 
 .step-number{
     font-size: 9.8rem;
@@ -332,12 +343,20 @@ body{
     margin-bottom: 3rem;
 }
 
+.step-img-box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.6rem;
+}
 .step-img-box{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
+
+
 
 .step-img-box::before{
     content: "";
@@ -527,6 +546,15 @@ body{
     margin-bottom: 1.2rem;
     
 }
+
+.note{
+    margin-bottom: 1rem;
+}
+
+.icon-note{
+    font-size: 2.4rem;
+    color: #556458;
+}
     
 .testimonial-text {
     font-size: 1.8rem;
@@ -582,13 +610,13 @@ body{
 }
 
 .princing-plan-pro{
-    background-color: #eff3ed;
+    background-color: #f2f4f2;
 }
 
 .princing-plan-complet{
     position: relative;
     overflow: hidden;
-    background-color: #d7ddd8;
+    background-color: #cad2cb;
 }
 .princing-plan-complet::after{
     content: "Meilleur choix";
