@@ -494,7 +494,7 @@ body{
 .list-icon{
     width: 3rem;
     height: 3rem;
-    color: #e67e22;
+    color: #7a8f7e;
 }
 
 .all-recipes{
@@ -561,4 +561,84 @@ body{
 .image{
     width: 100%;
     border-radius: 10px;
+}
+
+/**************************/
+/* PRICE SECTION          */
+/**************************/
+.section-pricing{
+    padding: 9.6rem 0;
+}
+
+.pricing-plan{
+    padding: 3.6rem;
+    border-radius: 11px;
+    width: 100%;
+}
+
+.princing-plan-starter{
+    background-color: #fff;
+    border: 1px solid #d7ddd8;
+}
+
+.princing-plan-pro{
+    background-color: #eff3ed;
+}
+
+.princing-plan-complet{
+    position: relative;
+    overflow: hidden;
+    background-color: #d7ddd8;
+}
+.princing-plan-complet::after{
+    content: "Meilleur choix";
+    position: absolute;
+    top: 6%;
+    right: -9.5%;
+    background-color: #fc6819;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.8rem 3.2rem;
+    color: #333;
+    transform: rotate(45deg);
+}
+
+.plan-header{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.plan-name{
+    color: #7a8f7e;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    margin-bottom: 3.2rem;
+}
+.plan-price{
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+
+}
+.plan-price span{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.plan-text{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #888;
+}
+
+.plan-signup{
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+.disable{
+    color: #aaa;
 }
