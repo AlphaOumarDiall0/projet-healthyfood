@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 4rem;
+    }
+
+    .grid {
+        gap: 6.4rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .hero-description {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .heading-primary {
+        font-size: 3.6rem;
+    }
+
+    .hero-description {
+        font-size: 1.6rem;
+    }
+
+    .customers-imgs {
+        justify-content: center;
+    }
+
+    .customers-imgs img:hover {
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .healthyfood-logo {
+        height: 6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-primary {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        font-size: 1.4rem;
+    }
+
+    .btn:link, .btn:visited {
+        font-size: 1.6rem;
+        padding: 1.2rem 2.4rem;
+    }
+}
+
