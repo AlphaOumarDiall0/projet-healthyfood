@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Healthyfood est une IA qui nous aide à manger plus sainnement 360 jours l'année">
     <link rel="shortcut icon" href="img/healthyfood-logo.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries.css">
-    <title>HealthyFood</title>
+    <title>HealthyFood - ne vous souciez plus de la cuisine</title>
 </head>
 <body>
     <header class="header">
@@ -111,7 +113,7 @@
                         Chaque semaine, validez le plan de repas de l'IA d'HealthyFood vous pouvez modifier les ingrédients, échanger des repas entiers ou ajouter vos propres recettes pour mieux satisfaire vos besoins.
                     </p>
                     <div class="step-img-box">
-                        <img src="img/app/app-2.png" alt="" class="step-img">
+                        <img src="img/app/app-2.png" alt="" class="step-img animate-img mobile-bg">
                     </div>
                 </div>
                 <!--Step 04-->
@@ -616,7 +618,7 @@
               </article>
               <article class="pricing-plan princing-plan-complet">
                 <header class="plan-header">
-                  <p class="plan-name">Preminium</p>
+                  <p class="plan-name">Premium</p>
                   <p class="plan-price">1,05M <span>GNF</span></p>
                   <p class="plan-text">par mois. C'est seulement 88k <span>GNF</span> par repas !</p>
                 </header>
@@ -674,7 +676,181 @@
               </div>
             </div> -->
         </section>
+
+        <section
+            class="section-subscribe"
+            id="subscribe">
+            <div class="subscribe-box container grid grid-cols-2">
+                <div class="subscribe-img">
+                    <img src="img/healthyfood-hero.png" 
+                    alt="Image de healthyfood"
+                    class="subscribe-image"
+                    >
+                </div>
+
+                <div class="subscribe-form">
+                    <h1 class="subscribe-heading">Get your first meal for free!</h1>
+                    <p class="subscribe-desc">
+                        Healthy, tasty and hassle-free meals are waiting for you. Starting eating well today.
+                        You can cancel or pause anytime. And the first meal is on us!
+                    </p>
+                    <form id="form-subscribe-element">
+                        <div>
+                            <label for="user-name">Name</label>
+                            <input
+                                type="text"
+                                id="user-name"
+                                placeholder="Alpha Oumar Diallo"
+                                required />
+                        </div>
+                        <div>
+                            <label for="user-email">Email</label>
+                            <input
+                                type="email"
+                                id="user-email"
+                                placeholder="aod@exemple.com"
+                                required />
+                        </div>
+                        <div>
+                            <label for="user-plan">Which plan interests you the most?</label>
+                            <select
+                                name="plans"
+                                id="user-plan">
+                                <option
+                                    value=""
+                                    disabled="disabled"
+                                    selected>
+                                    Please Choose One
+                                </option>
+                                <option value="Starter">Starter</option>
+                                <option value="Complete">Complete</option>
+                                <option value="Custom">Custom</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="subscribe-btn">Sign Up</button>
+                        </div>
+                    </form>
+                    <p class="submission"></p>
+                </div>
+            </div>
+        </section>
     </main>
+<!-- 
+    <footer>
+        <div class="section-footer container">
+            <div class="footer-info">
+                <img
+                    src=""
+                    class="logo"
+                    alt="several bowls of healthy green salads" />
+                <p class="footer-info-desc">
+                    HealthyFood uses AI to provide 365-days-per-year food subscription services that will make
+                    you eat healthy again. Users can use our app to select their diet and foods they like
+                    and dislike, and our AI algorithm will create a custom and individual weekly meal plan.
+                </p>
+                <div class="footer-socials">
+                    <a
+                        href="mailto:hello@aniqa.io"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="social-link"
+                        aria-label="email"
+                        ><i class="fa-solid fa-envelope"></i
+                    ></a>
+                    <a
+                        href="https://twitter.com/aniqatc"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="social-link"
+                        aria-label="twitter">
+                        <i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a
+                        href="https://github.com/aniqatc"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="social-link"
+                        aria-label="github">
+                        <i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                        href="https://linkedin.com/in/aniqaio"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="social-link"
+                        aria-label="linkedin">
+                        <i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <div class="account-links">
+                    <ul class="footer-links">
+                        <li>Account</li>
+                        <li><a href="#">Member Portal</a></li>
+                        <li><a href="#">Create Account</a></li>
+                        <li><a href="#">Referral Program</a></li>
+                    </ul>
+                </div>
+                <div class="resource-links">
+                    <ul class="footer-links">
+                        <li>Resources</li>
+                        <li><a href="#">Recipe Directory</a></li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy & Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company-links">
+                    <ul class="footer-links">
+                        <li>Company</li>
+                        <li><a href="#">About Omnifood</a></li>
+                        <li><a href="#">Cooking Partners</a></li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <ul class="footer-links">
+                        <li>Contact</li>
+                        <li>
+                            623 Harrison Street, <br />
+                            San Francisco, CA 94107
+                        </li>
+                        <li>415-201-6370 <br />help@omnifood.dev</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <div class="dev-credits">
+        <i class="fa-solid fa-code"></i>
+        Designed & Coded by
+        <a
+            href="https://twitter.com/aniqatc"
+            target="_blank"
+            rel="noreferrer"
+            class="social-link"
+            >AOD</a
+        ><br />
+        <small
+            >Concept from
+            <a
+                href="https://omnifood.dev"
+                target="_blank"
+                rel="noreferrer"
+                class="social-link"
+                >HealthyFood</a
+            >
+            Project</small
+        >
+    </div> -->
     <script defer="" src="js/index.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
