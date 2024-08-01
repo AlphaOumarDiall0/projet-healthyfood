@@ -677,62 +677,59 @@
             </div> -->
         </section>
 
-        <section
-            class="section-subscribe"
-            id="subscribe">
-            <div class="subscribe-box container grid grid-cols-2">
-                <div class="subscribe-img">
-                    <img src="img/healthyfood-hero.png" 
-                    alt="Image de healthyfood"
-                    class="subscribe-image"
-                    >
+        <section class="section-cta">
+            <div class="container">
+              <div class="cta grid grid-cols-2">
+                <div
+                  class="cta-img-box"
+                  role="img"
+                  aria-label="Woman enjoying food"
+                ></div>
+                <div class="cta-text-box">
+                  <h2 class="heading-secondary">Profitez de votre premier repas offert !</h2>
+                  <p class="cta-text">
+                    Des repas équilibrés, gourmands et sans effort vous attendent. Commencez à bien manger dès aujourd'hui. Annulez ou mettez en pause à tout moment. Et votre premier repas est offert !
+                  </p>
+    
+                  <form class="cta-form" action="#">
+                    <div>
+                      <label for="full-name">Nom complet</label>
+                      <input
+                        id="full-name"
+                        type="text"
+                        placeholder="Alpha Oumar Diallo"
+                        required
+                      />
+                    </div>
+    
+                    <div>
+                      <label for="email">Adresse email</label>
+                      <input
+                        id="email"
+                        type="email"
+                        placeholder="aod@example.com"
+                        required
+                      />
+                    </div>
+    
+                    <div>
+                      <label for="select-where">Où avez-vous fait notre connaissance ?</label>
+                      <select id="select-where" required>
+                        <option value="">Choisissez une option</option>
+                        <option value="friends">Amis et Famille</option>
+                        <option value="socials">Réseaux sociaux</option>
+                        <option value="others">Autres</option>
+                      </select>
+                    </div>
+    
+                    <button class="btn btn--form">S'inscrire maintenant</button>
+    
+                    <!-- <input type="checkbox" />
+                    <input type="number" /> -->
+                  </form>
                 </div>
-
-                <div class="subscribe-form">
-                    <h1 class="subscribe-heading">Get your first meal for free!</h1>
-                    <p class="subscribe-desc">
-                        Healthy, tasty and hassle-free meals are waiting for you. Starting eating well today.
-                        You can cancel or pause anytime. And the first meal is on us!
-                    </p>
-                    <form id="form-subscribe-element">
-                        <div>
-                            <label for="user-name">Name</label>
-                            <input
-                                type="text"
-                                id="user-name"
-                                placeholder="Alpha Oumar Diallo"
-                                required />
-                        </div>
-                        <div>
-                            <label for="user-email">Email</label>
-                            <input
-                                type="email"
-                                id="user-email"
-                                placeholder="aod@exemple.com"
-                                required />
-                        </div>
-                        <div>
-                            <label for="user-plan">Which plan interests you the most?</label>
-                            <select
-                                name="plans"
-                                id="user-plan">
-                                <option
-                                    value=""
-                                    disabled="disabled"
-                                    selected>
-                                    Please Choose One
-                                </option>
-                                <option value="Starter">Starter</option>
-                                <option value="Complete">Complete</option>
-                                <option value="Custom">Custom</option>
-                            </select>
-                        </div>
-                        <div>
-                            <button class="subscribe-btn">Sign Up</button>
-                        </div>
-                    </form>
-                    <p class="submission"></p>
-                </div>
+                
+              </div>
             </div>
         </section>
     </main>
