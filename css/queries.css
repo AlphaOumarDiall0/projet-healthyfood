@@ -99,6 +99,9 @@
     .gallery {
       grid-template-columns: repeat(2, 1fr);
     }
+    .btn-mobile-nav {
+        visibility: hidden;
+    }
   }
   
   /**************************/
@@ -135,9 +138,27 @@
     .hero {
       gap: 4.8rem;
     }
+
+    .section-how,
+    .section-featured,
+    .section-meals,
+    .section-testimonials,
+    .section-galery,
+    .section-pricing,
+    .section-cta,
+    .footer
+     {
+      padding: 2rem;
+      text-align: center;
+    }
   
     .testimonials-container {
       padding: 9.6rem 3.2rem;
+    }
+
+    /* MOBILE NAVIGATION */
+    .btn-mobile-nav {
+        visibility: hidden;
     }
   }
   
@@ -154,7 +175,20 @@
     .hero {
       grid-template-columns: 1fr;
       padding: 0 8rem;
-      gap: 6.4rem;
+      gap: 4.8rem;
+    }
+
+    .section-how,
+    .section-featured,
+    .section-meals,
+    .section-testimonials,
+    .section-galery,
+    .section-pricing,
+    .section-cta,
+    .footer
+     {
+      padding: 2rem;
+      text-align: center;
     }
   
     .hero-text-box,
@@ -179,21 +213,24 @@
       font-size: 7.4rem;
     }
   
-    .meal-content {
+    /* .meal-content {
       padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    } */
+  
+    .testimo {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .meals {
+      grid-template-columns: repeat(2, 1fr);
     }
   
-    .section-testimonials {
-      grid-template-columns: 1fr;
-    }
-  
-    .gallery {
-      grid-template-columns: repeat(6, 1fr);
+    .galery {
+      grid-template-columns: repeat(4, 1fr);
     }
   
     .cta {
       /* 3/5 = 60% + 2/5 = 40% */
-      grid-template-columns: 3fr 2fr;
+      grid-template-columns: repeat(2, 1fr);
     }
   
     .cta-form {
@@ -268,16 +305,25 @@
   /**************************/
   
   @media (max-width: 44em) {
-    .grid--3-cols,
-    .grid--4-cols {
+    .grid-cols-3,
+    .grid-cols-4 {
       grid-template-columns: repeat(2, 1fr);
     }
   
-    .diets {
-      grid-column: 1 / -1;
-      justify-self: center;
-    }
   
+    .section-how,
+    .section-featured,
+    .section-meals,
+    .section-testimonials,
+    .section-galery,
+    .section-pricing,
+    .section-cta,
+    .footer
+     {
+      padding: 2rem;
+      text-align: center;
+    }
+
     .heading-secondary {
       margin-bottom: 4.8rem;
     }
@@ -335,9 +381,11 @@
     .section-cta,
     .footer
      {
-      padding: 3.2rem;
+      padding: 2rem;
       text-align: center;
     }
+
+    
 
     .grid--footer{
         grid-template-columns: repeat(3, 1fr);
@@ -385,7 +433,7 @@
     }
   
     .cta-img-box {
-      height: 32rem;
+      height: 50rem;
       grid-row: 1;
     }
   }
