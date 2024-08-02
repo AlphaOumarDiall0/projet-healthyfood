@@ -776,74 +776,85 @@ body{
   
   
 /**************************/
-/* FOOTER SECTION         */
+/* FOOTER */
 /**************************/
-footer {
-    background: #f7fff4;
-    border-top: 1px solid #e1e1e1;
-    padding: 6rem 5rem; }
+
+.footer {
+    font-weight: 500;
+    padding: 9.6rem 0;
+    background-color: #e4e9e5;
+  }
   
-  .section-footer {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 4rem;
-    max-width: 120rem;
-    align-items: flex-end; }
+  .grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+  }
   
-  .footer-info-desc {
-    color: #333333;
-    margin: 2rem 0;
-    font-size: 1.4rem; }
+  .logo-col {
+    display: flex;
+    flex-direction: column;
+  }
   
-  .footer-socials i {
-    font-size: 2rem;
-    color: #123901;
-    margin-right: 2rem; }
+  .footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+  }
+
+  .logo{
+    height: 8rem;
+}
   
-  .footer-socials i:hover {
-    color: #216703; }
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+  }
   
-  /* FOOTER LINKS */
-  .footer-nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around; }
+  .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
   
-  .footer-links {
-    font-size: 1.4rem; }
+  .copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+  }
   
-  .footer-links li {
-    padding: 1rem; }
-  
-  .footer-links li:hover {
-    text-decoration: underline; }
-  
-  .footer-links li:first-child {
+  .footer-heading {
+    font-size: 1.8rem;
     font-weight: 700;
-    font-size: 1.5rem;
-    text-decoration: none;
-    cursor: auto;
-    margin-top: 1rem; }
+    margin-bottom: 4rem;
+  }
   
-  .contact-info li:hover {
-    text-decoration: none;
-    cursor: auto; }
-  
-  /* CREDIT BANNER */
-  .dev-credits {
+  .contacts {
+    font-style: normal;
     font-size: 1.6rem;
-    background: #7a8f7e;
-    color: #e4e9e5;
-    font-weight: 700;
-    text-align: center;
-    padding: 1rem; }
+    line-height: 1.6;
+  }
   
-  .dev-credits a {
-    color: white; }
+  .address {
+    margin-bottom: 2.4rem;
+  }
   
-  .dev-credits a:hover {
-    color: #70d744; }
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    color: #555;
+  }
   
   
