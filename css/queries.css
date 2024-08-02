@@ -326,31 +326,23 @@
     .section-hero {
       padding: 2.4rem 0 6.4rem 0;
     }
-    .section-how {
-      padding: 2.4rem 0 6.4rem 0;
+    .section-how,
+    .section-featured,
+    .section-meals,
+    .section-testimonials,
+    .section-galery,
+    .section-pricing,
+    .section-cta,
+    .footer
+     {
+      padding: 4.8rem;
+      text-align: center;
     }
-    .section-featured {
-      padding: 2.4rem 0 6.4rem 0;
+
+    .grid--footer{
+        grid-template-columns: repeat(3, 1fr);
     }
-    .section-meals {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-    .section-testimonials {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-    .section-galery {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-    .section-pricing {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-    .section-cta {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-    .section-footer {
-      padding: 2.4rem 0 6.4rem 0;
-    }
-  
+
     .hero {
       padding: 0 3.2rem;
     }
@@ -379,7 +371,7 @@
       grid-template-columns: 1fr;
     }
   
-    .gallery {
+    .galery {
       grid-template-columns: repeat(2, 1fr);
       gap: 1.2rem;
     }
