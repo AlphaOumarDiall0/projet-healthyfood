@@ -787,9 +787,6 @@ body{
     background-color: #e4e9e5;
   }
   
-  .grid--footer {
-    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
-  }
   
   .logo-col {
     display: flex;
