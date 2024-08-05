@@ -547,10 +547,11 @@
 
     .hero {
       padding: 0 3.2rem;
+      margin-top: 9.6rem;
     }
   
     .hero-img {
-      width: 80%;
+      width: 60%;
     }
   
     .logos img {
